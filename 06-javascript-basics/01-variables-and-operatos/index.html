@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variables lesson</title>
+</head>
+<body>
+  
+  <script>
+
+
+
+
+/*
+VARIABLE NAMING
+
+The name must contain only letters, digits, or the symbols $ and _.
+The first character must not be a digit.
+
+-------------
+
+There is a widespread practice to use constants as aliases for difficult-to-remember values that are known before execution.
+
+Such constants are named using capital letters and underscores.
+
+-------------------------
+
+Reuse or create?
+And the last note. There are some lazy programmers who, instead of declaring new variables, tend to reuse existing ones.
+
+As a result, their variables are like boxes into which people throw different things without changing their stickers. What’s inside the box now? Who knows? We need to come closer and check.
+
+Such programmers save a little bit on variable declaration but lose ten times more on debugging.
+
+An extra variable is good, not evil.
+
+Modern JavaScript minifiers and browsers optimize code well enough, so it won’t create performance issues. Using different variables for different values can even help the engine optimize your code.
+
+
+    The plus + exists in two forms: the binary form that we used above and the unary form.
+
+
+-----------------------
+
+The unary plus or, in other words, the plus operator + applied to a single value, doesn’t do anything to numbers. But if the operand is not a number, the unary plus converts it into a number.
+
+It actually does the same thing as Number(...), but is shorter.
+
+
+
+
+
+
+*/
+  
+
+
+    let admin;
+    let name;
+
+    name = 'John';
+
+    admin = name;
+
+    
+    let planetEarth;
+
+    let currentUser;
+
+    const BIRTHDAY = '15.02.1986';
+
+    
+    let a = 10;
+
+    console.log(a);
+
+    9 * a;
+
+    let b = 7 * a;
+
+    console.log(b);
+
+    const MAX = 57;
+
+    let actual = MAX - 13;
+
+    let percentage = actual / MAX;
+
+    console.log(percentage);
+    
+
+  </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
